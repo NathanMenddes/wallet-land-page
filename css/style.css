@@ -1,0 +1,98 @@
+*{
+    
+    box-sizing: border-box;
+    text-decoration:none;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #2B2B2B ;
+    
+}
+
+p {
+    color: #686868;
+}
+
+
+
+section{
+    padding: 0px 10%;
+}
+
+
+
+.ilustracao-home { 
+    background-color:#333333;
+    border-radius: 15px;
+    
+
+}
+.ilustracao-home img {
+    width: 100%;
+
+}
+
+
+
+.conteudo-patrocinadores img {
+    width: 100%;
+    
+}
+
+
+
+.ilustracao-sobre {
+    background-color: #FDF5DF;
+    border-radius: 15px;
+}
+.ilustracao-sobre img {
+    width: 100%;
+}
+
+.beneficio {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.bloco-depoimento { 
+    
+    background-color: #BFAFF2 ;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.bloco-depoimento p {
+    color: #000000;
+}
+
+
+
+.conteudo-footer p {
+    color: #ffffff;
+}
+ 
+
+
+.botao-roxo {
+    background-color:#BFAFF2 ;
+    color: #2B2B2B;
+    padding: 10px 50px;
+   border-radius: 10px ;
+   
+}
+
+.botao-amarelo {
+   background-color: #F8D57E;
+   color: #2B2B2B;
+   padding: 10px 40px;
+   border-radius: 10px ;
+
+}
+
+
