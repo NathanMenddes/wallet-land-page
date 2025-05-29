@@ -1,0 +1,11 @@
+header{
+    
+    padding: 30px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    & .botao-roxo{
+        margin-left: 30px;
+    }
+}

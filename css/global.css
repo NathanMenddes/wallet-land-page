@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    text-decoration:none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #2B2B2B ;
+    
+}
+
+p {
+    color: #686868;
+}
+
+section{
+    padding: 0px 10%;
+}
+
+.conteudo {
+    & a{
+        background-color: #F8D57E;
+        color: #2B2B2B;
+        padding: 10px 40px;
+        border-radius: 10px ;
+    }
+    & h2{
+        font-size: 45px;
+        margin-bottom: 40px;
+
+    }
+
+    & p{
+        font-size: 18px;
+        margin-bottom: 72px;
+    }
+}
+.botao-roxo {
+    background-color:#BFAFF2 ;
+    color: #2B2B2B;
+    padding: 10px 50px;
+   border-radius: 10px ;
+   
+}

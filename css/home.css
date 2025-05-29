@@ -1,0 +1,20 @@
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.ilustracao-home { 
+    background-color:#333333;
+    border-radius: 15px;
+    margin-left: 100px;
+    
+    
+
+}
+.ilustracao-home img {
+    width: 100%;
+    height: 100%;
+
+}
