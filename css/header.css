@@ -5,7 +5,19 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
+    
+    & a:nth-child(1):hover{
+        font-weight: bold;
+
+    }
+
+    
+
     & .botao-roxo{
         margin-left: 30px;
+
+        &:hover{
+            background-color: var(--amarelo-claro);
+        }
     }
 }
