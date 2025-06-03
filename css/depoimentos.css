@@ -6,6 +6,12 @@
     border-radius: 10px;
     margin-bottom: 100px;
 
+    &:hover{
+            background-color: var(--amarelo-claro);
+            transform: scale(1.05);
+
+    }
+
     & > div{
         display: flex;
         align-items: center;

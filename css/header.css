@@ -7,7 +7,7 @@ header{
     margin-bottom: 80px;
     
     & a:nth-child(1):hover{
-        font-weight: bold;
+        color: var(--roxo);
 
     }
 
@@ -17,7 +17,7 @@ header{
         margin-left: 30px;
 
         &:hover{
-            background-color: var(--amarelo-claro);
+            background-color: var(--amarelo);
         }
     }
 }

@@ -6,10 +6,18 @@
 
 }
 
+
+
 .ilustracao-home { 
     background-color:#333333;
     border-radius: 15px;
     margin-left: 100px;
+
+    &:hover{
+            background-color: var(--roxo);
+            transform: scale(1.05);
+
+    }
     
     
 
