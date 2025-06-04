@@ -1,17 +1,12 @@
-
 #contato {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    margin-bottom: 100px;
-    
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  font-size: var(--subtitulo);
+  gap: 50px;
 
-
-
-.ilustracao-contato img {
-    width: 50%;
-    height: 50%;
-    margin-left: 50%
-
+  & img {
+    width: 100%;
+  }
 }

@@ -1,36 +1,33 @@
+.bloco-depoimento {
+  background-color: var(--roxo);
+  padding: 83px 162px;
+  border-radius: 10px;
+  margin-bottom: 100px;
 
-.bloco-depoimento { 
-    
-    background-color: #BFAFF2 ;
-    padding: 83px 162px;
-    border-radius: 10px;
-    margin-bottom: 100px;
+  &:hover {
+    background-color: var(--amarelo-claro);
+    transform: scale(1.05);
+  }
 
-    &:hover{
-            background-color: var(--amarelo-claro);
-            transform: scale(1.05);
-
+  & > div {
+    display: flex;
+    align-items: center;
+    & img {
+      margin-right: 20px;
     }
 
-    & > div{
-        display: flex;
-        align-items: center;
-         & img {
-            margin-right: 20px;
-         }
-
-         & h3 {
-            font-size: 18px;
-            color: #808080;
-            font-weight: 100;
-         }
+    & h2 {
+      font-size: var(--subtitulo-mobile);
+      color: var(--cinza);
+      font-weight: 100;
     }
+  }
 
-    & > p{
-        color: #2b2b2b;
-        font-size: 24px;
-        font-weight:500;
-        line-height: 40px;
-        margin-bottom: 50px;
-    }
+  & > p {
+    color: var(--preto);
+    font-size: var(--paragrafo);
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
 }

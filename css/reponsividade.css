@@ -1,0 +1,44 @@
+@media (max-width: 1000px) {
+  #home {
+    :root {
+      --titulo: var(--titulo-mobile);
+      --subtitulo: var(--subtitulo-mobile);
+      --paragrafo: var(--paragrafo-mobile)
+    }
+    & img {
+      min-width: 320px;
+    }
+  }
+  #contato {
+    & img {
+      min-width: 320px;
+    }
+  }
+
+  .bloco-depoimento{
+    padding: 40px 5%;
+  }
+  .formulario-footer{
+    text-align: right;
+    & input{
+        margin-right: 0px !important;
+        margin-bottom: 10px;
+
+    }
+  }
+}
+@media (max-width: 1000px){
+   #home{
+    flex-direction: column;
+   
+   }
+    #contato{
+        flex-direction: column; 
+    }
+    .beneficio{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+
+    }
+}

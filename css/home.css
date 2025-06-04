@@ -1,29 +1,26 @@
-#home{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-
-
-}
-
-
-
-.ilustracao-home { 
-    background-color:#333333;
-    border-radius: 15px;
-    margin-left: 100px;
-
-    &:hover{
-            background-color: var(--roxo);
-            transform: scale(1.05);
-
-    }
-    
-    
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:50px;
 
 }
-.ilustracao-home img {
-    width: 100%;
-    height: 100%;
 
+.ilustracao-home {
+  background-color: var(--preto-claro);
+  border-radius: 15px;
+  
+  
+
+  &:hover {
+    background-color: var(--roxo);
+    transform: scale(1.05);
+  }
+  & img{
+  width: 100%;
+
+  }
 }
+
+  
+

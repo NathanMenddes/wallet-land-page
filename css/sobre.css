@@ -1,36 +1,31 @@
-
 .ilustracao-sobre {
-    background-color: #FDF5DF;
-    border-radius: 15px;
-    margin-bottom: 100px;
+  background-color: var(--amarelo-claro);
+  border-radius: 15px;
+  margin-bottom: 100px;
 
-    & img{
-        width: 100%;
-    }
+  & img {
+    width: 100%;
+  }
 
-     &:hover{
-            background-color: var(--roxo);
-            transform: scale(1.05);
-
-    }
-    
-    
+  &:hover {
+    background-color: var(--roxo);
+    transform: scale(1.05);
+  }
 }
 
 .beneficio {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  
 
-    & div{
-        padding: 10px 20px;
-        width: 310px;
-        text-align: center;
-        & h2{
-            font-size: 18px;
-            margin: 30px 0px 10px 0px;
-        }
-        
+  & div {
+    padding: 10px 20px;
+    width: 310px;
+    text-align: center;
+    & h2 {
+      font-size: var(--subtitulo);
+      margin: 30px 0px 10px 0px;
     }
-
+  }
 }

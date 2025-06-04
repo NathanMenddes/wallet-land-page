@@ -1,42 +1,35 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 6%;
 
-footer{
+  & .conteudo-footer > div {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 6%;
+    gap: 30px;
+  }
 
-
-    
-    & .conteudo-footer > div {
-        display: flex;
-        gap: 30px;
-        
-    }
-     
-    & .formulario-footer{
-        & p{
-            margin-bottom: 15px;
-
-        }
-        & input {
-            width: 250px;
-            height: 40px;
-            border-radius: 20px;
-            background-color:#333333 ;
-            font-size: 18px;
-            padding-left: 30px;
-            margin-right: 25px;
-        }
-        
-    }
-
-    & h1 {
-        margin-bottom: 44px;
-        font-size: 24px;
-    }
-
-    
+  & .formulario-footer {
     & p {
-        color: #ffffff;
+      margin-bottom: 15px;
     }
+    & input {
+      width: 250px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: var(--preto-claro);
+      font-size: var(--paragrafo);
+      padding-left: 30px;
+      margin-right: 25px;
+    }
+  }
+
+  & h2 {
+    margin-bottom: 44px;
+    font-size: var(--subtitulo);
+  }
+
+  & p {
+    color: var(--branco);
+  }
 }

@@ -1,23 +1,19 @@
-header{
-    
-    padding: 30px 6%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
-    
-    & a:nth-child(1):hover{
-        color: var(--roxo);
+header {
+  padding: 30px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
 
+  & a:nth-child(1):hover {
+    color: var(--roxo);
+  }
+
+  & .botao-roxo {
+    margin-left: 30px;
+
+    &:hover {
+      background-color: var(--amarelo);
     }
-
-    
-
-    & .botao-roxo{
-        margin-left: 30px;
-
-        &:hover{
-            background-color: var(--amarelo);
-        }
-    }
+  }
 }
