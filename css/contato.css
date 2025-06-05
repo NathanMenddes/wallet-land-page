@@ -5,8 +5,8 @@
   margin-bottom: 100px;
   font-size: var(--subtitulo);
   gap: 50px;
-
-  & img {
-    width: 100%;
-  }
+ & img {
+      width: 100%;
+    }
+  
 }
