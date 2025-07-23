@@ -29,6 +29,14 @@ Este projeto é uma landing page criada para promover um aplicativo de carteira 
 
 ---
 
+## 🚀 Deploy
+
+A landing page está publicada e disponível para acesso em:
+
+https://nathanmenddes.github.io/wallet-land-page/
+
+---
+
 ## 🧭 Estrutura do projeto
 
 ```text
